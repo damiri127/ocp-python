@@ -1,6 +1,6 @@
 from abc import ABC , abstractmethod 
 
-class Karakkter :
+class Karakter :
     def __init__(self, nama: str, power: int):
         self.__nama = nama
         self.__power = power 
