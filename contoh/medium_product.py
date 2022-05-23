@@ -1,6 +1,6 @@
 from product_delivery import ProductDelivery
 
-class MediumProduct:
+class MediumProduct(ProductDelivery):
     
     def __init__(self, price: int, name: str):
         super().__init__(name, price)
