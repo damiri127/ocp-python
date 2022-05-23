@@ -8,3 +8,4 @@ class Penabrak (Karakter) :
         return self.get_power()
     
     
+    
