@@ -5,4 +5,4 @@ class SmallProduct (ProductDelivery) :
         super().__init__(price,name) 
     
     def calculate_delivery(self) -> int :
-        return self.get_price()+ 2000 
+        return self.get_price() + 2000 

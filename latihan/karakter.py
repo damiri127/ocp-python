@@ -11,7 +11,6 @@ class Karakter :
     def get_power (self) -> int: 
         return self.__power
     
-    
     @abstractmethod
     def menyerang (type : str) -> str :
         pass 
