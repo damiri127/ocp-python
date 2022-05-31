@@ -6,6 +6,3 @@ class Penabrak (Karakter) :
     
     def menyerang (self) :
         return self.get_power()
-    
-    
-    
